@@ -7,3 +7,6 @@ TelnetClient实际是通过socket实现的。
  在不清楚命令返回结果时，可以使用windows telnet连接到设备，输入命令，观察结果，程序根据结果去修改就ok。
 
 TelnetClient实际上是模仿一个Telnet客户端，命令输入和获取和客户端输入命令返回结果是一样的。
+
+应用场景:  
+操作交换机时
